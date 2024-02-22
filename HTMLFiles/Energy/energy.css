@@ -1,0 +1,167 @@
+body{
+  background-color: #F3F8DE;
+  font-family: 'Cabin', sans-serif;
+  margin-left: 20px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.logoimage {
+  width: 18%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+} 
+
+/* Navbar */
+  .nav-bar{
+ margin-top: 15px;
+ display: flex; 
+ justify-content: space-evenly;
+ float: up;
+ background-color: #68796E;
+
+} 
+  
+  a{
+  text-decoration: none;
+  color:whitesmoke;
+  padding: 10px 40px ;
+  background-color: #68796E;
+}
+
+.nav-bar a:hover{
+  background-color: #B1BEB4;
+  color: white;
+}
+
+h1 {
+  color: #084b15 ; 
+  font-family: 'Cabin';
+  font-size: 100px;
+  float: left;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #084b15 ; 
+  font-family: 'Cabin';
+  font-size: 60px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #084b15 ; 
+  font-family: 'Cabin';
+  font-size: 40px;
+  margin-left: 20px;
+  text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image1 {
+  flex-basis: 60%;
+  margin: 1.2%;
+  padding-left: 20px;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nonrenew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image2 {
+  flex-basis: 60%;
+  margin: 1.2%;
+  /* padding-right: 20px; */
+  /* width: 200px;
+  height: 200px; */
+  padding-right: 40px;
+}
+.text2 {
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.car {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image3 {
+  flex-basis: 60%;
+  margin: 1.2%;
+  padding-left: 20px;
+  
+}
+
+.text3 {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image4 {
+  flex-basis: 60%;
+  margin: 1.2%;
+  padding-left: 60px;
+}
+
+.text4 {
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.products {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.text5{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.renewenergy {
+  width: auto;
+  height: auto;
+}
+
+.nonrenewenergy {
+  width: auto;
+  height: auto;
+}
+
+.greenhome {
+ width: auto;
+ height: auto;
+}

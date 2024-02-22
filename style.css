@@ -1,0 +1,181 @@
+body{
+  background-color: #F3F8DE;
+  font-family: 'Cabin', sans-serif;
+}
+
+  .nav-bar{
+ margin-top: 15px;
+ display: flex; 
+ justify-content: space-evenly;
+ float: up;
+ background-color: #68796E;
+
+} 
+  
+  a{
+  text-decoration: none;
+  color:whitesmoke;
+  padding: 10px 40px ;
+  background-color: #68796E;
+  display: flex; 
+  justify-content: center;
+}
+
+.nav-bar a:hover{
+  background-color: #B1BEB4;
+  color: white;
+}
+
+/* Heading */
+h1 {
+  color: #084b15 ; 
+  font-family: 'Cabin';
+  font-size: 100px;
+  float: left;
+  margin-left: 20px;
+}
+
+/* 'Read More' Button */
+.button {
+  color: #084b15;
+  background-color: white;
+  border: 2px solid #084b15;
+  display: inline;
+  margin-left: 75%;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: floralwhite;
+}
+.desc {
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+/* Description p */
+p {
+  font-size: 20px;
+  text-align:justify;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Logo */
+img {
+  width: 18%;
+  height: auto;
+}
+
+/* CSS for slideshow */
+{box-sizing:border-box}
+
+.slideshow-container{
+  width: 50%;
+  height: 5%;
+  object-fit: cover;
+  position: relative;
+}
+
+
+.mySlides fade{
+  display: none;
+}
+/* //button placement */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.half{
+  width: 30%
+}
